@@ -1,5 +1,6 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import ReactNative, {View, TextInput, LayoutAnimation, Platform, NativeModules} from 'react-native';
+import { PropTypes } from 'prop-types'
 
 const ANDROID_PLATFORM = (Platform.OS === 'android');
 const DEFAULT_ANIM_DURATION = 100;
